@@ -3,6 +3,8 @@ import React from 'react';
 import NavBar from './NavBar';
 import HeroSection from './HeroSection';
 import HighlightedSpecials from './Specials';
+import Testimonial from './Testimonial';
+
 
 
 function App() {
@@ -11,6 +13,7 @@ function App() {
       <NavBar />
       <HeroSection />
       <HighlightedSpecials />
+      <Testimonial />
     </div>
   );
 }
