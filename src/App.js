@@ -4,7 +4,7 @@ import NavBar from './NavBar';
 import HeroSection from './HeroSection';
 import HighlightedSpecials from './Specials';
 import Testimonial from './Testimonial';
-
+import Footer from './Footer';
 
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
       <HeroSection />
       <HighlightedSpecials />
       <Testimonial />
+      <Footer />
     </div>
   );
 }
