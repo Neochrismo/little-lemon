@@ -1,4 +1,5 @@
 import React from "react";
+import "./Specials.css";
 
 const Specials = [
     {
@@ -13,7 +14,7 @@ const Specials = [
         name: "Bruschetta",
         price: "$5.99",
         description: "Grilled bread topped with a mixture of diced tomatoes, garlic, basil, and olive oil, creating a flavorful and satisfying appetizer.",
-        image: "/bruchetta.jpg"
+        image: "/bruchetta.svg"
     },
     {
         id: 3,

@@ -1,0 +1,26 @@
+.navbar {
+  background-color: #F4CE14;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo img {
+  height: 2rem;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-links li a {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+.navbar-links li a:hover {
+  text-decoration: underline;
+}
