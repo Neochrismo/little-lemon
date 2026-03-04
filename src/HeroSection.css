@@ -28,7 +28,7 @@
   color: white;
   margin-bottom: 30px;
 }
-.hero-section button {
+.hero-button {
   padding: 10px 20px;
   font-size: 1.2rem;
   color: white;
@@ -37,7 +37,7 @@
   border-radius: 5px;
   cursor: pointer;
 }
-.hero-section button:hover {
+.hero-button:hover {
   background-color: #e0b50f;
 }
 .hero-image {

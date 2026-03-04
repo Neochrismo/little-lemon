@@ -2,7 +2,7 @@
   background-color: #495E57;
   padding: 0px;
   border-radius:0;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .highlighted-specials-header {
     display: flex;
@@ -14,13 +14,14 @@
   position: relative;
   flex-direction: row;
   background-color: black;
-  width: 100%;
-  padding: 5px 20px;
+  width: 95%;
+  padding: 0px 20px;
+  margin: 0 auto 20px auto;
 }
 .highlighted-specials h2 {
   color: white;
 }
-.highlighted-specials-button {
+.highlighted-specials-link {
   padding: 10px 20px;
   font-size: 1.2rem;
   color: white;
@@ -30,27 +31,29 @@
   cursor: pointer;
   margin: 50px;
 }
-.highlighted-specials-button:hover {
+.highlighted-specials-link:hover {
   background-color: #e0b50f;
 }
 .specials-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+  justify-content: left;
+  gap: 10px;
   width: 100%;
+  padding: 5px;
 }
 .special-card {
   background-color: white;
   border-radius: 10px;
   padding: 20px;
   flex: 1 1 300px;
-  max-width: 350px;
+  max-width: 95%;
   display: flex;
   flex-direction: column;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  min-height: 450px;
 }
 .special-image {
   width: 100%;

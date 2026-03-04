@@ -31,7 +31,7 @@ const HighlightedSpecials = () => {
         <section className="highlighted-specials">
             <header className="highlighted-specials-header">
             <h2>This Week's Specials!</h2>
-            <button className="highlighted-specials-button">Online Menu</button>
+            <Link to="/menu" className="highlighted-specials-link">Online Menu</Link>
             </header>
             <div className="specials-container">
                 {Specials.map(special => (
