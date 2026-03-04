@@ -1,4 +1,5 @@
 import React from "react";
+import{ Link } from "react-router-dom";
 import "./Specials.css";
 
 const Specials = [
@@ -36,10 +37,12 @@ const HighlightedSpecials = () => {
                 {Specials.map(special => (
                     <article key={special.id} className="special-card">
                         <img src={special.image} alt={special.name} className="special-image" />
-                        <h3>{special.name}</h3>
-                        <p className="special-price">{special.price}</p>
+                        <div className="special-header">
+                         <h3>{special.name}</h3>
+                         <p className="special-price">{special.price}</p>
+                        </div>
                         <p className="special-description">{special.description}</p>
-                        <button className="order-button">Order a delivery</button>
+                        <Link to="/booking" className="order-button">Order a delivery</Link>
                     </article>
                 ))}
             </div>
