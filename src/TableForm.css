@@ -1,0 +1,13 @@
+.booking {
+    display: grid;
+    background-color: #495E57;
+    margin: 0;
+    justify-content: stretch;
+}
+.form-group {
+    display: inline-block;
+    flex-direction: row;
+    margin-bottom: 15px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}

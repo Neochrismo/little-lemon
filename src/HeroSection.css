@@ -1,7 +1,5 @@
 .hero-section {
-  position: relative;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 50px 5%;
@@ -36,12 +34,14 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  align-items: flex-start;
 }
 .hero-button:hover {
   background-color: #e0b50f;
 }
 .hero-image {
   max-width: 300px;
+  float: right;
 }
 .hero-image img {
   width: 100%;
@@ -50,8 +50,9 @@
 }
 @media (max-width: 768px) {
   .hero-section {
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     padding: 20px;
+    font-size: 0.2rem;
   }
 }

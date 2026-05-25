@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./TableForm.css";
 
 const BookingForm = () => {
   const [formData, setFormData] = useState({
@@ -17,7 +18,7 @@ const BookingForm = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData((prevData) => ({
+    setFormData ((prevData) => ({
       ...prevData,
       [name]: value,
     }));
@@ -85,10 +86,26 @@ const BookingForm = () => {
         </div>
         <div className="form-group">
             <label htmlFor="location">Location:</label>
-            <select id="location" name="location" value={formData.location} onChange={handleChange}>
-                <option value="indoor">Indoor</option>
-                <option value="outdoor">Outdoor</option>
-            </select>
+            <label>
+            <input
+            type="radio"
+            id="location"
+            name="location"
+            value="indoor"
+            checked={formData.location}
+            onChange={handleChange} />
+            Indoor
+            </label>
+            <label>
+              <input
+              type="radio"
+              id="location"
+              name="location"
+              value="outdoor"
+              checked={formData.location}
+              onChange={handleChange} />
+              Outdoor
+            </label>
         </div>
         <div className="form-group">
             <label htmlFor="tables">Number of Tables:</label>
